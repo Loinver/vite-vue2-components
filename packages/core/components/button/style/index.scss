@@ -1,0 +1,46 @@
+@import "../../../style/variables.scss";
+
+.#{$prefix}-button {
+  box-sizing: border-box;
+  list-style: none;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  font-size: $font-size;
+  outline: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  background-color: transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  border-radius: $border-radius;
+  text-decoration: none;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  margin: 0 10px 0 0;
+  transition: .5s;
+
+  &:last-child {
+    margin: 0;
+  }
+
+  &:hover {
+    opacity: .7;
+  }
+
+  &-default {
+    color: $text-color-default;
+    background-color: $comp-color-default;
+  }
+  &-primary {
+    color: $text-color-primary;
+    background-color: $comp-color-primary;
+  }
+}

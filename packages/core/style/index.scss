@@ -1,0 +1,11 @@
+:root {
+  --mc-text-color-default: #000000;
+  --mc-text-color-primary: #ffffff;
+
+  --mc-comp-color-default: #a1a3a6;
+  --mc-comp-color-primary: #009ad6;
+
+  --mc-radius-default: 5px;
+}
+
+@import "../components/button/style/index.scss";

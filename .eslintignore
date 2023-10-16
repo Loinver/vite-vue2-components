@@ -1,0 +1,7 @@
+dist
+node_modules
+!.prettierrc.js
+packages/*/dist
+packages/*/lib
+packages/tdesign-business-components/src/packages/theme-chalk/*
+packages/tdesign-business-components/lib/*
